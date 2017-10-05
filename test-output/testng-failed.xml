@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="ch"/>
+  <test name="Chrome(failed)" preserve-order="false">
+    <parameter name="browser" value="ch"/>
+    <groups>
+      <run>
+        <include name="SMK"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Scripts.AE_script">
+        <methods>
+          <include name="creatingreport"/>
+          <include name="closeapp"/>
+          <include name="dataretrieval" invocation-numbers="0"/>
+          <include name="browserlaunch"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

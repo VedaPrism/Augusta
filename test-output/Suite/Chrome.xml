@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAP122" name="Scripts.AE_script" tests="1" failures="0" timestamp="5 Oct 2017 05:53:53 GMT" time="77.162" errors="0">
+  <testcase name="dataretrieval" time="60.042" classname="Scripts.AE_script"/>
+</testsuite>
